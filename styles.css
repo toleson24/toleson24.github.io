@@ -1,0 +1,43 @@
+/* 
+    Color Palette: 
+    PrimaryColor: Charcoal (#333333)
+	Secondary Color: Soft White (#F7F7F7)
+	Accent Color: Teal (#008080)
+	Background Color: Light Gray (#EAEAEA)
+	Text Color: Black (#000000)
+*/
+
+html {
+    width: 300px;
+    margin: 0;
+    background-color: #EAEAEA;
+    color: #000000;
+}
+
+header {
+    text-align: center;
+}
+
+h1 {
+    width: 100%;
+    font-size: 2em;
+}
+
+#profile-photo {
+    max-width: 300px;
+    max-height: auto;
+}
+
+.soc-med-container {
+    display: inline-block;
+    width: 100%;
+    align-content: center;
+}
+
+.soc-med-links {
+    all: unset;
+    max-width: 64px;
+    max-height: 64px;
+
+    /* TODO : custom botton; */
+}
