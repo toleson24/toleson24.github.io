@@ -8,8 +8,9 @@
 */
 
 html {
-    width: 300px;
+    width: 90%;
     margin: 0;
+    padding: 0 5%;
     background-color: #EAEAEA;
     color: #000000;
 }
@@ -23,21 +24,30 @@ h1 {
     font-size: 2em;
 }
 
-#profile-photo {
-    max-width: 300px;
-    max-height: auto;
+@media (hover: none) and (pointer: coarsse) {
+    #profile-photo {
+        max-width: 100%;
+        max-height: auto;
+    }
 }
 
 .soc-med-container {
-    display: inline-block;
+    display: flex;
     width: 100%;
-    align-content: center;
+    justify-content: space-around;
+}
+
+@media (min-width: 450) {
+    .soc-med-container {
+        justify-content: center;
+    }
+
+    .soc-med-links {
+        padding: 1em;
+    }
 }
 
 .soc-med-links {
-    all: unset;
     max-width: 64px;
     max-height: 64px;
-
-    /* TODO : custom botton; */
 }
